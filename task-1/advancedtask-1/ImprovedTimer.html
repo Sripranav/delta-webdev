@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="imp_timerstyling.css">
+  <br><br>
+  <h>Timer</h>
+</head>
+<body>
+<br>
+  <p>Days:<input type="number" id="days" class="time"></p>
+  <p>Hours:<input type="number" id="hrs" class="time"></p>
+  <p>Minutes:<input type="number" id="min" class="time"></p>
+  <p>Seconds:<input type="number" id="sec" class="time"></p>
+  <button onclick="input()" id="submit"> Submit </button>
+  <p id = "constraint"></p>
+  <br>
+  <div id="mainblock">
+       <div>
+          <span id=days_number></span>
+          <div class="label">DAYS</div>
+       </div>
+       <div>
+          <span id=hours_number></span>
+          <div class="label">HOURS</div>
+       </div>
+       <div>
+          <span id=minutes_number></span>
+          <div class="label">MINS</div>
+       </div>
+       <div>
+          <span id=seconds_number></span>
+          <div class="label">SECS</div>
+       </div>
+  </div>  
+  <button onclick="timer()"> Start </button>
+  <button onclick="pause()"> Stop </button>
+  <button onclick="reset()"> Reset </button>
+  <button onclick="refresh()">Reload page</button>
+  <script type="text/javascript" src="imptimerjscode.js"></script>
+</body>
+</html>

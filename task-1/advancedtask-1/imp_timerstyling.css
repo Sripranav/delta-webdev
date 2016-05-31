@@ -1,0 +1,34 @@
+h {
+text-align: center;
+color: #F5F5F5;
+font-size: 50px;
+}
+body{  
+text-align:center;
+background: black;
+background-image: url("http://orig08.deviantart.net/3476/f/2007/224/b/e/sand_clock_sand_uhr_blau_by_gehrminator.jpg");
+background-size:cover;
+}
+p{
+color: white;
+font-size: 25px;  
+}
+#mainblock>div{
+display:inline-block;
+border-radius:10px;
+padding:20px;
+margin:2px;
+}
+#mainblock>div>div{
+font-size:60px;
+padding:5px;
+padding-top:15px;
+padding-bottom:0px;
+color:white;
+border-radius:10px;
+}
+#mainblock>div>span{
+font-size:80px;
+padding:30px;
+color:white;
+}
