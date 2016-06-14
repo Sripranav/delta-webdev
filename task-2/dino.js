@@ -93,6 +93,9 @@ var render = function () {
 	if (dino.x < rock.x + rockWidth  && dino.x + dinoWidth  > rock.x &&
 		dino.y < rock.y + rockHeight && dino.y + dinoHeight > rock.y) {
 		if (!game_over) {
+			var soundEfx;
+                        soundEfx=document.getElementById("soundEfx");
+                        soundEfx.play();
 			alert("Game Over");
 			location.reload();
 		}
@@ -125,5 +128,5 @@ var w = window;
 requestAnimationFrame = w.requestAnimationFrame || w.webkitRequestAnimationFrame || w.msRequestAnimationFrame || w.mozRequestAnimationFrame;
 
 var then = Date.now();
-alert("Welcome to Dino Dash! press Space to jump.");
+alert("Welcome to Dino Run! press Space to jump.");
 main();
