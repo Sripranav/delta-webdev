@@ -4,5 +4,6 @@ CREATE TABLE `dbtest`.`users` (
 `username` VARCHAR( 25 ) NOT NULL ,
 `email` VARCHAR( 35 ) NOT NULL ,
 `password` VARCHAR( 50 ) NOT NULL ,
+`userpic` VARCHAR( 200 ) NOT NULL ,
 UNIQUE (`email`)
 ) ENGINE = MYISAM ;
