@@ -27,5 +27,7 @@ $userRow=mysql_fetch_array($res);
         </div>
     </div>
 </div>
+Welcome <?php echo $userRow['username']; ?>. <br>
+Your email id is <?php echo $userRow['email']; ?>
 </body>
 </html>
